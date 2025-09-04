@@ -13,3 +13,7 @@ Before converting, it confirms the input with the user to make sure the value is
 1. Compile the program:
    ```bash
    javac CelsiusConverter.java
+
+2. Run the program:
+   java CelsiusConverter
+
