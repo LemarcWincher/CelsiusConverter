@@ -34,5 +34,8 @@ Great! Converting 25.0°C to Fahrenheit...
 Do you want to convert another temperature? (Y/N) N
 Thanks for using my converter! Goodbye!
 
+##Author
+Lemarc Wincher
+
 
 
