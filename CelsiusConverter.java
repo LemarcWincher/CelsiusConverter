@@ -18,7 +18,7 @@ import java.util.Scanner; // Introduces scanner to read user input via keyboard
 
 public class CelsiusConverter {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); //Assigns scanner to begin reading user input
 
         System.out.println("Hello! Welcome to the Celsius To Fahrenheit Converter");
         System.out.println("This project is designed to convert your inputted temperature in Celsius and convert it into Fahrenheit!");
@@ -39,7 +39,7 @@ public class CelsiusConverter {
                 System.out.println("You entered: " + userCelsius + "°C");
                 System.out.print("Is this correct? (Y/N): ");
                 confirm = input.nextLine().trim().toUpperCase(); // Ensures user input is capitalized and flows properly into while loop
-            } while (!confirm.equals("Y"));
+            } while (!confirm.equals("Y")); //Ensures user has to type capital Y, asks until they confirm yes
 
             System.out.println();
             System.out.println("Great! Converting " + userCelsius + "°C to Fahrenheit...");
@@ -59,6 +59,6 @@ public class CelsiusConverter {
 
     // Celsius Conversion Method
     public static double convertToFahrenheit(double celsius) {
-        return (celsius * 9 / 5) + 32;
+        return (celsius * 9 / 5) + 32; //Formula for Celsius to Fahrenheit conversion
     }
 }
