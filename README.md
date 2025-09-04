@@ -1,20 +1,16 @@
-# 🌡️ CelsiusConverter
+# CelsiusConverter
 
-A simple **Java console application** that converts temperatures from Celsius to Fahrenheit.  
-The program also asks users to **confirm their input** before performing the conversion, ensuring accurate results.  
+This is a simple Java console program that converts temperatures from Celsius to Fahrenheit.  
+Before converting, it confirms the input with the user to make sure the value is correct.  
 
----
+## Features
+- Reads a Celsius temperature from the user
+- Asks for confirmation of the entered value
+- Converts Celsius to Fahrenheit using the formula: (C × 9/5) + 32
+- Prints the result in a clear format
 
-## ✨ Features
-- Accepts temperature input in Celsius  
-- Confirms the entered value with the user before conversion  
-- Converts Celsius to Fahrenheit using the formula:  
-  F = (C × 9/5) + 32  
-- Displays results in a clear, user-friendly format  
-
----
-
-## 🚀 How to Run
+## How to Run
 1. Compile the program:
    ```bash
    javac CelsiusConverter.java
+
